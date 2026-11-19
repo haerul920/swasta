@@ -1,0 +1,6 @@
+{
+  "name": "Swasana",
+  "description": "Ekosistem Udara Bersih & Pemulihan Pernapasan dengan pemantauan AQI, peta zona bebas asap, pelacak pemulihan paru-paru, jurnal kesehatan pernapasan, dan analisis Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

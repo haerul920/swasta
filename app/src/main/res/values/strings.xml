@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Swasana</string>
+    <string name="app_tagline">Ekosistem Udara Bersih &amp; Pemulihan Pernapasan</string>
+    <string name="welcome_headline">Kendalikan Udara &amp; Napas Anda</string>
+    <string name="welcome_subtitle">Pantau kualitas udara sekitar, temukan zona bebas asap, dan pulihkan kesehatan paru-paru setiap hari.</string>
+    <string name="cta_get_started">Mulai Sekarang</string>
+    <string name="cta_sign_in">Masuk</string>
+    <string name="cta_register">Daftar Akun Baru</string>
+    <string name="nav_home">Beranda</string>
+    <string name="nav_map">Peta</string>
+    <string name="nav_recovery">Pemulihan</string>
+    <string name="nav_journal">Jurnal</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_admin">Admin</string>
+    <string name="cd_swasana_logo">Logo Swasana</string>
+    <string name="cd_notifications">Pusat Notifikasi</string>
+    <string name="cd_location_pin">Ikon Lokasi</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_close">Tutup</string>
+    <string name="cd_refresh">Muat Ulang Data</string>
+    <string name="cd_search">Cari</string>
+    <string name="cd_add">Tambah</string>
+    <string name="cd_edit">Ubah</string>
+    <string name="cd_delete">Hapus</string>
+    <string name="cd_sos_breathe">Latihan Pernapasan SOS</string>
+    <string name="cd_lung_visualizer">Visualisasi Pemulihan Paru-Paru</string>
+    <string name="disclaimer_non_medical">Catatan: Analisis AI bersifat edukatif untuk kebugaran pernapasan dan bukan merupakan diagnosis medis profesional.</string>
+</resources>
