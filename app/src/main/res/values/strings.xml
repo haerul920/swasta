@@ -1,28 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Swasana</string>
-    <string name="app_tagline">Ekosistem Udara Bersih &amp; Pemulihan Pernapasan</string>
-    <string name="welcome_headline">Kendalikan Udara &amp; Napas Anda</string>
-    <string name="welcome_subtitle">Pantau kualitas udara sekitar, temukan zona bebas asap, dan pulihkan kesehatan paru-paru setiap hari.</string>
-    <string name="cta_get_started">Mulai Sekarang</string>
-    <string name="cta_sign_in">Masuk</string>
-    <string name="cta_register">Daftar Akun Baru</string>
-    <string name="nav_home">Beranda</string>
-    <string name="nav_map">Peta</string>
-    <string name="nav_recovery">Pemulihan</string>
-    <string name="nav_journal">Jurnal</string>
-    <string name="nav_profile">Profil</string>
-    <string name="nav_admin">Admin</string>
-    <string name="cd_swasana_logo">Logo Swasana</string>
-    <string name="cd_notifications">Pusat Notifikasi</string>
-    <string name="cd_location_pin">Ikon Lokasi</string>
-    <string name="cd_back">Kembali</string>
-    <string name="cd_close">Tutup</string>
-    <string name="cd_refresh">Muat Ulang Data</string>
-    <string name="cd_search">Cari</string>
-    <string name="cd_add">Tambah</string>
-    <string name="cd_edit">Ubah</string>
-    <string name="cd_delete">Hapus</string>
-    <string name="cd_sos_breathe">Latihan Pernapasan SOS</string>
-    <string name="cd_lung_visualizer">Visualisasi Pemulihan Paru-Paru</string>
-    <string name="disclaimer_non_medical">Catatan: Analisis AI bersifat edukatif untuk kebugaran pernapasan dan bukan merupakan diagnosis medis profesional.</string>
+    <string name="app_tagline">Napas lega, setiap hari</string>
+    <string name="app_concept">NafasSehat: Ekosistem Udara Bersih dan Bebas Asap</string>
+
+    <!-- Umum -->
+    <string name="action_back">Kembali</string>
+    <string name="action_close">Tutup</string>
+    <string name="action_next">Lanjut</string>
+    <string name="action_skip">Lewati</string>
+    <string name="action_start">Mulai</string>
+    <string name="action_done">Selesai</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_retry">Coba lagi</string>
+    <string name="action_change_location">Ubah lokasi</string>
+    <string name="action_detail">Detail</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_verify">Verifikasi</string>
+    <string name="action_reject">Tolak</string>
+    <string name="action_add">Tambah</string>
+    <string name="action_decrease">Kurangi</string>
+    <string name="action_increase">Tambah</string>
+    <string name="action_open_settings">Buka Pengaturan</string>
+    <string name="action_open_alerts">Buka peringatan</string>
+    <string name="action_use_this_location">Pakai lokasi ini</string>
+    <string name="action_share">Bagikan</string>
+
+    <!-- Kategori AQI -->
+    <string name="aqi_level_good">Baik</string>
+    <string name="aqi_level_moderate">Sedang</string>
+    <string name="aqi_level_unhealthy_sensitive">Tidak sehat (sensitif)</string>
+    <string name="aqi_level_unhealthy">Tidak sehat</string>
+    <string name="aqi_level_very_unhealthy">Sangat tidak sehat</string>
+    <string name="aqi_level_hazardous">Berbahaya</string>
+    <string name="aqi_advice_good">Udara bersih. Waktu yang pas untuk aktivitas di luar.</string>
+    <string name="aqi_advice_moderate">Cukup aman. Kelompok sangat sensitif tetap waspada.</string>
+    <string name="aqi_advice_unhealthy_sensitive">Kelompok rentan sebaiknya mengurangi aktivitas di luar.</string>
+    <string name="aqi_advice_unhealthy">Semua orang sebaiknya membatasi aktivitas di luar.</string>
+    <string name="aqi_advice_very_unhealthy">Hindari aktivitas di luar. Tetap di dalam ruangan.</string>
+    <string name="aqi_advice_hazardous">Darurat kualitas udara. Jangan keluar tanpa kebutuhan mendesak.</string>
+    <string name="aqi_label">AQI</string>
+    <string name="aqi_label_ispu">ISPU</string>
+    <string name="aqi_scale_us">US AQI</string>
+    <string name="aqi_scale_ispu">ISPU (Indonesia)</string>
+    <string name="unit_ugm3">µg/m³</string>
+    <string name="pollutant_pm25">PM2.5</string>
+    <string name="pollutant_pm10">PM10</string>
+    <string name="pollutant_o3">O₃</string>
+
+    <!-- Notifikasi -->
+    <string name="channel_air_alert_name">Peringatan kualitas udara</string>
+    <string name="channel_air_alert_desc">Pemberitahuan saat kualitas udara melewati ambangmu.</string>
+    <string name="channel_community_name">Pengumuman komunitas</string>
+    <string name="channel_community_desc">Kabar zona bebas asap dan status laporanmu.</string>
+    <string name="notif_air_alert_title">Udara memburuk: AQI %1$d</string>
+    <string name="notif_air_alert_text">Kategori: %1$s. Pakai masker N95/KF94 dan kurangi aktivitas luar.</string>
+
+    <!-- Jarak dan waktu -->
+    <string name="time_minutes_ago">%1$d menit lalu</string>
+    <string name="time_hours_ago">%1$d jam lalu</string>
+    <string name="time_days_ago">%1$d hari lalu</string>
+    <string name="time_just_now">Baru saja</string>
 </resources>

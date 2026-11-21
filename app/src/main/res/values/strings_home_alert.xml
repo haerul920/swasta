@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Beranda -->
+    <string name="home_greeting">Halo, %1$s</string>
+    <string name="home_greeting_anon">Halo</string>
+    <string name="home_location_unknown">Lokasi belum dipilih</string>
+    <string name="home_open_settings">Buka pengaturan</string>
+    <string name="home_loading_air">Memuat kualitas udara…</string>
+    <string name="home_no_air">Data kualitas udara belum tersedia.</string>
+    <string name="home_source">Sumber: %1$s</string>
+    <string name="home_stale_data">Data ini sudah lama. Periksa koneksi lalu tarik ke bawah untuk memperbarui.</string>
+    <string name="home_error_no_location_title">Lokasi belum tersedia</string>
+    <string name="home_error_no_location_msg">Izinkan lokasi atau pilih lokasi secara manual untuk melihat kualitas udara.</string>
+    <string name="home_error_unavailable_title">Data udara tidak tersedia</string>
+    <string name="home_error_unavailable_msg">Kami belum bisa mengambil data kualitas udara. Periksa koneksimu, lalu coba lagi atau ubah lokasi.</string>
+    <string name="home_alert_title">Udara memburuk di sekitarmu</string>
+    <string name="home_alert_body">Pakai masker N95/KF94 dan kurangi aktivitas luar.</string>
+    <string name="home_quick_zone">Zona Bebas Asap</string>
+    <string name="home_quick_report">Lapor Asap</string>
+    <string name="home_quick_journal">Catat Gejala</string>
+    <string name="home_quit_title">Perjalanan bebas nikotin</string>
+    <string name="home_quit_free_for">Bebas rokok selama</string>
+    <string name="home_quit_days">%1$d hari</string>
+    <string name="home_quit_saved">Uang dihemat</string>
+    <string name="home_quit_avoided">Batang tak diisap</string>
+    <string name="home_recs_title">Saran untukmu hari ini</string>
+
+    <!-- Saran -->
+    <string name="rec_mask_title">Pakai masker N95 atau KF94</string>
+    <string name="rec_mask_body">Masker kain atau medis biasa kurang efektif menyaring PM2.5.</string>
+    <string name="rec_recovering_title">Parumu sedang pulih</string>
+    <string name="rec_recovering_body">Hindari jalan kaki di jalan padat. Pilih olahraga di dalam ruangan hari ini.</string>
+    <string name="rec_inhaler_ready_title">Siapkan inhaler pereda</string>
+    <string name="rec_inhaler_ready_body">Bawa inhaler saat keluar dan tunda olahraga berat di luar ruangan.</string>
+    <string name="rec_kids_inside_title">Tunda bermain di luar</string>
+    <string name="rec_kids_inside_body">Anak dan lansia sebaiknya di dalam ruangan dengan jendela tertutup.</string>
+    <string name="rec_everyone_limit_title">Batasi aktivitas di luar</string>
+    <string name="rec_everyone_limit_body">Kualitas udara tidak sehat untuk semua orang. Utamakan kegiatan di dalam ruangan.</string>
+    <string name="rec_good_walk_title">Waktu yang baik untuk jalan pagi</string>
+    <string name="rec_good_walk_body">Udara cukup bersih. Buka jendela agar sirkulasi rumah lebih segar.</string>
+    <string name="rec_park_title">Latihan napas di taman</string>
+    <string name="rec_park_body">Aktivitas ringan di luar membantu mengalihkan keinginan merokok.</string>
+    <string name="rec_keep_inhaler_title">Tetap bawa inhaler</string>
+    <string name="rec_keep_inhaler_body">Kondisi baik, tetapi pemicu lain seperti debu tetap bisa muncul.</string>
+    <string name="rec_kids_safe_title">Aman bermain di luar</string>
+    <string name="rec_kids_safe_body">Pilih taman yang ditandai sebagai zona bebas asap.</string>
+    <string name="rec_sensitive_title">Kelompok sensitif tetap waspada</string>
+    <string name="rec_sensitive_body">Udara cukup aman, tetapi kurangi aktivitas berat bila kamu mudah terganggu napas.</string>
+
+    <!-- Aktivitas -->
+    <string name="activity_outdoor_exercise">Olahraga di luar</string>
+    <string name="activity_walk">Jalan kaki</string>
+    <string name="activity_open_window">Buka jendela</string>
+    <string name="activity_indoor_exercise">Olahraga di dalam</string>
+    <string name="activity_status_safe">Aman</string>
+    <string name="activity_status_recommended">Disarankan</string>
+    <string name="activity_status_mask">Pakai masker</string>
+    <string name="activity_status_postpone">Tunda</string>
+    <string name="activity_status_close_window">Tutup dulu</string>
+
+    <!-- Peringatan -->
+    <string name="alert_title">Peringatan Kualitas Udara</string>
+    <string name="alert_back">Kembali ke beranda</string>
+    <string name="alert_updated">Diperbarui %1$s · Sumber: %2$s</string>
+    <string name="alert_forecast_title">Prakiraan 12 jam</string>
+    <string name="alert_forecast_unavailable">Prakiraan belum tersedia. Isi OPENWEATHER_API_KEY di local.properties untuk prakiraan per jam.</string>
+    <string name="alert_for_you">Untuk profilmu</string>
+    <string name="alert_activities">Aktivitas hari ini</string>
+    <string name="alert_history">Riwayat peringatan</string>
+    <string name="alert_threshold_cta">Atur ambang peringatan (saat ini %1$d)</string>
+    <string name="aqi_gauge_description">AQI %1$d, kategori %2$s</string>
+
+    <!-- Pengingat kesehatan -->
+    <string name="disclaimer_health">Informasi di aplikasi ini bersifat edukatif dan bukan diagnosis atau pengganti saran tenaga kesehatan. Bila keluhanmu berat atau tak kunjung membaik, hubungi dokter.</string>
+    <string name="emergency_title">Segera hubungi layanan kesehatan</string>
+    <string name="emergency_message">Gejala berat perlu penanganan segera. Hubungi 119 (PSC) atau 112, atau datang ke fasilitas kesehatan terdekat.</string>
+    <string name="emergency_call_119">Telepon 119</string>
+    <string name="emergency_call_112">Telepon 112</string>
+</resources>

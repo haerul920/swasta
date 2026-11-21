@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Tema awal (splash sistem) sebelum Compose tampil: latar biru agar tidak ada kilatan putih. -->
+    <style name="Theme.Swasana.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/swasana_primary_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Swasana</item>
+    </style>
 
-    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar" />
+    <style name="Theme.Swasana" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/swasana_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
 </resources>

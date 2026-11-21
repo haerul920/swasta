@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isAdmin() {
+      return signedIn() && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'ADMIN';
+    }
+
+    match /users/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+      // Pengguna hanya boleh membuat dokumennya sendiri dengan peran USER.
+      allow create: if signedIn() && request.auth.uid == uid && request.resource.data.role == 'USER';
+      allow delete: if signedIn() && request.auth.uid == uid;
+      allow update: if isAdmin();
+    }
+
+    match /zones/{id} {
+      allow read: if resource.data.verified == true || isAdmin();
+      allow create: if signedIn() && request.resource.data.verified == false;
+      allow update, delete: if isAdmin();
+    }
+
+    match /reports/{id} {
+      allow read: if resource.data.status == 'VERIFIED' || isAdmin()
+                  || (signedIn() && resource.data.reporterId == request.auth.uid);
+      allow create: if signedIn() && request.resource.data.status == 'PENDING'
+                    && request.resource.data.reporterId == request.auth.uid;
+      allow update: if isAdmin();
+      allow delete: if isAdmin() || (signedIn() && resource.data.reporterId == request.auth.uid);
+    }
+  }
+}

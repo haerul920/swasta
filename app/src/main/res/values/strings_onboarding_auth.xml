@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigasi bawah -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_radar">Radar</string>
+    <string name="nav_pulih">Pulih</string>
+    <string name="nav_journal">Jurnal</string>
+    <string name="nav_sos">SOS</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_kicker">Radar udara</string>
+    <string name="ob1_title">Tahu kualitas udara di sekitarmu, kapan saja</string>
+    <string name="ob1_desc">Pantau AQI secara real-time dan temukan kafe, taman, atau ruang publik yang bebas asap rokok.</string>
+    <string name="ob1_icon">Ikon radar kualitas udara</string>
+    <string name="ob2_kicker">Pulih bertahap</string>
+    <string name="ob2_title">Pulihkan parumu, satu hari demi satu hari</string>
+    <string name="ob2_desc">Lacak hari bebas rokok dan vape, lihat tahap pemulihan tubuh, dan hitung uang yang berhasil dihemat.</string>
+    <string name="ob2_icon">Ikon paru-paru</string>
+    <string name="ob3_kicker">Jurnal napas</string>
+    <string name="ob3_title">Catat napasmu, pahami polanya</string>
+    <string name="ob3_desc">Hubungkan gejala harian dengan kualitas udara dan kebiasaanmu, lalu terima peringatan sebelum udara memburuk.</string>
+    <string name="ob3_icon">Ikon jurnal</string>
+    <string name="ob_page_indicator">Halaman %1$d dari %2$d</string>
+
+    <!-- Masuk dan daftar -->
+    <string name="auth_login_title">Masuk</string>
+    <string name="auth_register_title">Daftar</string>
+    <string name="auth_new_user">Pengguna baru?</string>
+    <string name="auth_have_account">Sudah punya akun?</string>
+    <string name="auth_create_account">Buat akun</string>
+    <string name="auth_name">Nama</string>
+    <string name="auth_name_hint">Nama panggilanmu</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_email_hint">nama@email.com</string>
+    <string name="auth_password">Kata sandi</string>
+    <string name="auth_password_hint">Minimal 8 karakter</string>
+    <string name="auth_login_action">Masuk</string>
+    <string name="auth_register_action">Buat akun</string>
+    <string name="auth_or">atau</string>
+    <string name="auth_google">Lanjutkan dengan Google</string>
+    <string name="auth_guest">Coba sebagai tamu</string>
+    <string name="auth_guest_note">Mode tamu menyimpan data hanya di perangkat ini.</string>
+    <string name="auth_error_invalid_email">Format email belum benar.</string>
+    <string name="auth_error_weak_password">Kata sandi minimal 8 karakter.</string>
+    <string name="auth_error_wrong_credentials">Email atau kata sandi salah.</string>
+    <string name="auth_error_email_in_use">Email ini sudah terdaftar. Coba masuk.</string>
+    <string name="auth_error_google_not_configured">Masuk dengan Google belum dikonfigurasi di build ini.</string>
+    <string name="auth_error_cancelled">Dibatalkan.</string>
+    <string name="auth_error_network">Tidak ada koneksi internet. Coba lagi.</string>
+    <string name="auth_error_unknown">Terjadi kendala. Coba lagi sebentar lagi.</string>
+
+    <!-- Pilih profil -->
+    <string name="profile_title">Apa yang ingin kamu jaga?</string>
+    <string name="profile_subtitle">Pilih satu atau lebih. Saran dan peringatan akan disesuaikan dengan profilmu.</string>
+    <string name="profile_min_one">Pilih minimal satu profil untuk melanjutkan.</string>
+    <string name="profile_umum_title">Saya ingin udara yang sehat</string>
+    <string name="profile_umum_sub">Pantau AQI dan zona bebas asap di sekitar</string>
+    <string name="profile_perokok_title">Saya ingin berhenti merokok atau vape</string>
+    <string name="profile_perokok_sub">Pelacak hari bebas nikotin, SOS craving, hitung hemat</string>
+    <string name="profile_napas_title">Saya punya asma atau gangguan napas</string>
+    <string name="profile_napas_sub">Peringatan lebih awal dan jurnal gejala</string>
+    <string name="profile_pengasuh_title">Saya menjaga anak atau lansia</string>
+    <string name="profile_pengasuh_sub">Saran aktivitas untuk kelompok rentan</string>
+
+    <!-- Data kebiasaan -->
+    <string name="habit_title">Ceritakan kebiasaanmu</string>
+    <string name="habit_subtitle">Data ini hanya dipakai untuk menghitung progres dan penghematanmu.</string>
+    <string name="habit_product">Yang kamu gunakan</string>
+    <string name="habit_product_cigarette">Rokok</string>
+    <string name="habit_product_vape">Vape</string>
+    <string name="habit_product_both">Keduanya</string>
+    <string name="habit_daily">Batang per hari</string>
+    <string name="habit_daily_hint">rata-rata sebelum berhenti</string>
+    <string name="habit_price">Harga per bungkus (isi %1$d)</string>
+    <string name="habit_price_custom">Harga lain (Rp)</string>
+    <string name="habit_sticks">Isi per bungkus</string>
+    <string name="habit_quit_date">Tanggal berhenti</string>
+    <string name="habit_date_today">Hari ini</string>
+    <string name="habit_date_yesterday">Kemarin</string>
+    <string name="habit_date_pick">Pilih tanggal</string>
+    <string name="habit_quit_since">Berhenti sejak %1$s</string>
+    <string name="habit_quit_note">Penghematan dihitung dari tanggal ini</string>
+    <string name="habit_monthly">Perkiraan hemat per bulan: %1$s</string>
+
+    <!-- Izin -->
+    <string name="permissions_title">Izinkan akses agar Swasana bekerja</string>
+    <string name="permissions_subtitle">Kami menjelaskan dulu untuk apa setiap izin dipakai. Kamu bisa mengubahnya kapan saja.</string>
+    <string name="permissions_location_title">Lokasi</string>
+    <string name="permissions_location_body">Untuk membaca kualitas udara dan menampilkan zona bebas asap di sekitarmu. Tanpa izin, kamu tetap bisa memilih lokasi secara manual.</string>
+    <string name="permissions_notif_title">Notifikasi</string>
+    <string name="permissions_notif_body">Untuk memberi tahu saat udara melewati ambangmu. Ada jam tenang, dan maksimal satu notifikasi untuk setiap kenaikan kategori.</string>
+    <string name="permissions_privacy">Lokasi presisi hanya dipakai di perangkatmu. Laporan publik hanya menyimpan koordinat laporan, bukan riwayat lokasimu.</string>
+    <string name="permissions_allow">Izinkan lokasi &amp; mulai</string>
+    <string name="permissions_manual">Isi lokasi secara manual</string>
+    <string name="permissions_skip">Lewati dulu</string>
+    <string name="permissions_denied_note">Izin lokasi tidak diberikan. Pilih lokasimu secara manual, atau lewati dan atur nanti di Pengaturan.</string>
+
+    <!-- Pemilih lokasi -->
+    <string name="location_title">Ubah lokasi</string>
+    <string name="location_search_label">Cari kota atau alamat</string>
+    <string name="location_search_hint">Mis. Makassar</string>
+    <string name="location_use_device">Pakai lokasi perangkat</string>
+    <string name="location_no_results">Tempat tidak ditemukan. Coba kata kunci lain.</string>
+</resources>
